@@ -34,5 +34,5 @@ th, td
 
 tbody tr:nth-child(odd) td
 {
-	background-color: lightgreen;
+	background-color: red;
 }
