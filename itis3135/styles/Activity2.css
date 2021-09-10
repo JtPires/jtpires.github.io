@@ -16,7 +16,7 @@ table
 
 thead
 {
-	background-color: red;
+	background-color: green;
 }
 
 th, td
@@ -25,6 +25,10 @@ th, td
 	padding: .2em 1em .2em .5em;
 	text-align: left;
 	vertical-align: middle;
+}
+
+tr{
+background-color: lightblue;
 }
 
 .right
