@@ -16,7 +16,7 @@ table
 
 thead
 {
-	background-color: green;
+	background-color: red;
 }
 
 th, td
@@ -34,5 +34,5 @@ th, td
 
 tbody tr:nth-child(odd) td
 {
-	background-color: red;
+	background-color: lightgreen;
 }
