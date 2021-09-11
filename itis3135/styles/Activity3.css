@@ -1,0 +1,15 @@
+.button{
+background-color: #52345F;
+color: #23F50A
+}
+
+
+body{
+font-family: monospace;
+color: blue;
+background-color: grey;
+}
+
+h1, h2{
+text-decoration: underline;
+}
