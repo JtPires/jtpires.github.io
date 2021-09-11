@@ -1,15 +1,20 @@
 .button{
-background-color: #52345F;
-color: #23F50A
+background-color: purple;
+color: cyan;
 }
 
 
 body{
 font-family: monospace;
 color: blue;
-background-color: grey;
+background-color: lightgrey;
 }
 
-h1, h2{
+h1{
+text-decoration: underline;
+text-align: center;
+}
+
+h3{
 text-decoration: underline;
 }
