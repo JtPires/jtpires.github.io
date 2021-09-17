@@ -1,53 +1,3 @@
-
-body
-{
-font-family: monospace;
-color: blue;
-background-color: lightgrey;
-margin-left: 75px;
-margin-right: 75px;
-}
-
-header, footer
-{
-text-align: center;
-}
-
-h1, h2, h3 
-{
-font-family: cambria;
-text-align: center;
-line-height: 0px;
-}
-
-
-
-a
-{
-text-decoration: none;
-color: red;
-}
-
-a:hover
-{
-text-decoration: overline underline;
-}
-
-figure
-{
-text-align: center;
-}
-
-figcation
-{
-font-style: italic;
-}
-
-nav
-{
-text-align: center;
-}
-
 button{
 background-color: purple;
 color: cyan;
@@ -62,6 +12,11 @@ text-align: center;
 text-decoration: underline;
 }
 
-.line2{
-float:left;
+body
+{
+font-family: monospace;
+color: blue;
+background-color: lightgrey;
+margin-left: 75px;
+margin-right: 75px;
 }
