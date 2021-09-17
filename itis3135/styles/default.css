@@ -3,19 +3,18 @@ background-color: purple;
 color: cyan;
 }
 
+
+body{
+font-family: monospace;
+color: blue;
+background-color: lightgrey;
+}
+
 .line1{
 text-decoration: underline;
-text-align: left;
+text-align: center;
 }
 
 .line3{
 text-decoration: underline;
-}
-
-body
-{
-font-family: monospace;
-color: blue;
-background-color: black;
-
 }
