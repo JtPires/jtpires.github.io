@@ -1,0 +1,71 @@
+button{
+background-color: purple;
+color: cyan;
+}
+
+
+body{
+font-family: monospace;
+color: blue;
+background-color: lightgrey;
+}
+
+h1,h2 
+{
+text-decoration: underline;
+text-align: center;
+
+}
+
+h3{
+text-decoration: underline;
+}
+
+figure
+{
+text-align: center;
+}
+
+figcation
+{
+font-style: italic;
+}
+
+nav
+{
+text-align: center;
+}
+
+table
+{
+	border-collapse: collapse;
+	
+	margin: 20px;
+}
+
+thead
+{
+	background-color: green;
+}
+
+th, td
+{
+	border: 1px solid black;
+	padding: .2em 1em .2em .5em;
+	text-align: left;
+	vertical-align: middle;
+}
+
+
+
+.right
+{
+	text-align: right;
+}
+
+tbody tr:nth-child(odd) td
+{
+	background-color: lightblue;
+}
+
+
