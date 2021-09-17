@@ -2,8 +2,8 @@
 body
 {
 font-family: monospace;
-color: cyan;
-background-color: brown;
+color: blue;
+background-color: lightgrey;
 margin-left: 75px;
 margin-right: 75px;
 }
@@ -13,12 +13,14 @@ header, footer
 text-align: center;
 }
 
-h1, h2, h3
+h1, h2, h3 
 {
 font-family: cambria;
 text-align: center;
 line-height: 0px;
 }
+
+
 
 a
 {
@@ -46,4 +48,20 @@ nav
 text-align: center;
 }
 
+button{
+background-color: purple;
+color: cyan;
+}
 
+.line1{
+text-decoration: underline;
+text-align: center;
+}
+
+.line3{
+text-decoration: underline;
+}
+
+.line2{
+float:left;
+}
