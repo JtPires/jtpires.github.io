@@ -5,19 +5,19 @@ color: cyan;
 
 
 a:link{
-color: transparent;
+background-color: transparent;
 }
 
 a:visited{
-color: transparent;
+background-color: transparent;
 }
 
 a:hover{
-color:transparent;
+background-color: transparent;
 }
 
 a:active{
-color:transparent;
+background-color: transparent;
 }
 
 
