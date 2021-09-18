@@ -5,19 +5,19 @@ color: cyan;
 
 
 a:link{
-color: none;
+color: green;
 }
 
 a:visited{
-color: none;
+color: green;
 }
 
 a:hover{
-color: none;
+color:green;
 }
 
 a:active{
-color:none;
+color:green;
 }
 
 
