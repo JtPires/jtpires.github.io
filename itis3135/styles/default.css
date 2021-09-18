@@ -4,6 +4,23 @@ color: cyan;
 }
 
 
+a:link{
+color: none;
+}
+
+a:visited{
+color: none;
+}
+
+a:hover{
+color: none;
+}
+
+a:active{
+color:none;
+}
+
+
 body{
 font-family: monospace;
 color: blue;
