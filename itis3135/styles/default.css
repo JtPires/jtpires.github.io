@@ -12,13 +12,8 @@ background-color: lightgrey;
 
 h1,h2 
 {
-text-decoration: underline;
 text-align: center;
 
-}
-
-h3{
-text-decoration: underline;
 }
 
 figure
@@ -68,4 +63,7 @@ tbody tr:nth-child(odd) td
 	background-color: lightblue;
 }
 
+footer{
+text-align: center;
+}
 
