@@ -3,15 +3,40 @@ alert("Hey my script is running");
 }
 
 function timesTen(){
-var number = prompt("Enter a number");
-document.write(number * 10);
+const number = prompt("Enter a number to be multiplied by 10");
+document.write("The product is" + ": " + number * 10);
 }
 
 function addCombine(){
-var x = prompt("Enter a number");
-var y = prompt("Enter another number");
-document.write(x + y);
+const x = parseInt(prompt("Enter a number"));
+const y = parseInt(prompt("Enter another number"));
+const sum = x + y;
+document.write("The sum is" + ": " + sum);
 }
+
+function findAverage(){
+const x = parseInt(prompt("Enter a number"));
+const y = parseInt(prompt("Enter another number"));
+const z = parseInt(prompt("Enter the last number"));
+const average = (x+y+z)/3;
+document.write("The average is" + ": " + average);
+}
+
+function findArea(){
+const x = parseInt(prompt("Enter a number"));
+const y = parseInt(prompt("Enter another number"));
+const area = x * y;
+document.write("The area is" + ": " + area);
+}
+
+function feetToInches(){
+const x = parseInt(prompt("Enter the amount in feet"));
+const inch = parseFloat(x * 12);
+document.write("The amount in inches is" + ": " + inch + " inches");
+}
+
+
+
 
 const date = new Date();
 let company = "Pires Inc.";
