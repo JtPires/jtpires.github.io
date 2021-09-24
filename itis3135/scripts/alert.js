@@ -2,10 +2,16 @@ function myAlert(){
 alert("Hey my script is running");
 }
 
+function timesTen(number){
+return number * 10;
+}
+
 const date = new Date();
-let comp = "Pires Inc.";
+let company = "Pires Inc.";
 var user = prompt("Please enter your name");
 var feeling = prompt("How are you you doing?");
-document.write("Today is " + date);
-document.write(" The " + comp + " welcomes you, " + user + "!");
+document.write("Today is " + date.getFullYear() + "-" + (date.getMonth()+1) + "-" + date.getDate() + " and the time is " + date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds());
+
+document.write(" The " + company + " welcomes you, " + user + "!");
 document.write(" We're glad you are doing " + feeling + "!");
+
