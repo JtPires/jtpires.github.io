@@ -2,8 +2,9 @@ function myAlert(){
 alert("Hey my script is running");
 }
 
-function timesTen(number){
-return number * 10;
+function timesTen(){
+x = prompt("Type a number!");
+return x * 10;
 }
 
 const date = new Date();
