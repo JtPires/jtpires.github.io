@@ -3,7 +3,9 @@ alert("Hey my script is running");
 }
 
 function timesTen(){
-var doc = prompt("HI");
+var number = prompt("Enter a number");
+<p> The number you chose multiplied by ten is</p>
+document.write(number * 10);
 }
 
 const date = new Date();
