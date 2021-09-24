@@ -39,7 +39,7 @@ document.write("The amount in inches is" + ": " + inch + " inches");
 
 
 const date = new Date();
-let company = "Pires Inc.";
+let company = "Pires landscaping";
 var user = prompt("Please enter your name");
 var feeling = prompt("How are you you doing?");
 document.write("Today is " + date.getFullYear() + "-" + (date.getMonth()+1) + "-" + date.getDate() + " and the time is " + date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds());
