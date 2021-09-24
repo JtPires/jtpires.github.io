@@ -3,8 +3,7 @@ alert("Hey my script is running");
 }
 
 function timesTen(){
-x = prompt("Type a number!");
-return x * 10;
+var doc = prompt("HI");
 }
 
 const date = new Date();
