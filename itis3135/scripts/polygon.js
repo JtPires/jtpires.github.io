@@ -32,17 +32,22 @@ document.write("This is a Decagon!");
 
 
 
-function validateEntry(number_sides){
-number_sides = Math.abs(Math.round(number_sides));
+function validateEntry(number){
 
-if(isNaN(number_sides)){
+Math.round(number_sides);
+
+if(isNaN(number)){
 alert("Invalid statement");
 }
 
-if(number_sides < .5 || number_sides > 10.5){
-document.write("Invalid number");
-
+if(number < 1){
+return number_sides = Math.abs(number_sides);
 }
+
+if(number > 10){
+alert("Invalid number");
+}
+ 
 }
 
 
