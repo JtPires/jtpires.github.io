@@ -1,11 +1,15 @@
 
-number_sides = window.prompt("The Joyful Penguin would like your number 1-10");
+//Ask the user to input a number
+number_sides = window.prompt("The Joyful Penguin would like your number");
 validateEntry(number_sides);
 getShape(number_sides);
 
 
 
 function getShape(number_sides){
+
+
+//Print names of the polygon that matches the side number
 
 if(number_sides == 1){
 document.write("This is a Henagon! ");
@@ -28,25 +32,41 @@ document.write("This is a Nonagon!");
 }else if (number_sides == 10){
 document.write("This is a Decagon!");
 }
+
 }
 
 
 
 function validateEntry(number){
 
-Math.round(number_sides);
+
+//If number is a string alert the user this is invalid
 
 if(isNaN(number)){
 alert("Invalid statement");
 }
 
-if(number < 1){
-return number_sides = Math.abs(number_sides);
-}
-
-if(number > 10){
+if(number <= -10.4){
 alert("Invalid number");
 }
+
+if(number < 1){
+return number_sides = Math.abs(number_sides);
+
+}
+
+if(number > 10.5){
+alert("Invalid number");
+}
+
+//If decimal round to nearest integer
+
+if(number > 0.5 || number < 10.5){
+return number_sides = Math.round(number_sides);
+
+}
+
+
  
 }
 
