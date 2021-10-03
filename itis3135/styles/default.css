@@ -90,6 +90,12 @@ width: 100px;
 height: 100px;
 }
 
+.calculator{
+display: grid;
+}
+
 .calculator_keys{
 display: grid;
 }
+
+
