@@ -99,4 +99,6 @@ display: grid;
 display: grid;
 }
 
-
+li {
+display: inline;
+}
