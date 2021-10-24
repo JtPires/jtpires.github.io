@@ -6,30 +6,31 @@ window.onload = function() {
 
 var total = 0;
 	
-document.getElementById("Espresso").onclick = function() {espressoOrder()};
-document.getElementById("Cappuccino").onclick = function() {cappuccinoOrder()};
+document.getElementById("Espresso").onclick = function() {Espresso()};
+document.getElementById("Cappuccino").onclick = function() {Cappuccino()};
 
 	
-function espressoOrder(){
+function Espresso(){
 
-document.getElementById("order").innerHTML += "$1.95 - Espresso - Delicious espresso. Wanna try it?";
+document.getElementById("order").innerHTML += ("$1.95" + " - " + "Espresso" + " - " +  "Delicious espresso. Wanna try it?");
 
-total = total + 1.95;
+total += 1.95;
 
 document.getElementById("total").innerHTML = "Total: $" + total.toFixed(2);
 
 }
 
-function cappuccinoOrder(){ 
+function Cappuccino(){ 
 
 		
-document.getElementById("order").innerHTML += "$3.45 - Cappuccino - Delicious Cappuccino!";
+document.getElementById("order").innerHTML += ("$3.45" + " - " + "Cappuccino" + " - " + "Delicious Cappuccino!" + "\n");
 
 		
-total = total + 3.45;
+total += 3.45;
 
 		
 document.getElementById("total").innerHTML = "Total: $" + total.toFixed(2);
 
 }
-}; // end onload
+}
+; 
