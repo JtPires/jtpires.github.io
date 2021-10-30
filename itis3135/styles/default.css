@@ -27,10 +27,10 @@ color: blue;
 background-color: lightgrey;
 }
 
-h1,h2,p
+h1,h2,p,h3,h4
 {
 text-align: center;
-
+font-size: 30px;
 }
 
 figure
