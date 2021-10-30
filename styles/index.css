@@ -1,0 +1,64 @@
+button{
+background-color: purple;
+color: cyan;
+}
+
+
+a:link{
+background-color: transparent;
+}
+
+a:visited{
+background-color: transparent;
+}
+
+a:hover{
+background-color: transparent;
+}
+
+a:active{
+background-color: transparent;
+}
+
+
+body{
+font-family: American Typewriter, serif;
+color: #9966FF;
+
+background-color: #CCCCFF;
+}
+
+h1,h2,p,h3
+{
+text-align: center;
+font-size: 30px;
+
+}
+
+figure
+{
+text-align: center;
+
+
+}
+
+figcaption
+{
+font-style: italic;
+
+}
+
+nav
+{
+text-align: center;
+}
+
+
+
+
+
+footer{
+text-align: center;
+}
+
+
