@@ -6,5 +6,5 @@ function submit() {
 
 
 
-window.alert("Thank you for filling out our form " + fullname + "!" + "\n" + "Email: " + email + "\n" + "Phone: " + number + "\n" + "Location: " + location);
+alert("Thank you for filling out our form " + fullname + "!" + "\n" + "Email: " + email + "\n" + "Phone: " + number + "\n" + "Location: " + location);
 }
