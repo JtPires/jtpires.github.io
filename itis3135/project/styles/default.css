@@ -1,7 +1,13 @@
 .image{
-width: 350px;
-height: 350px;
+width: 500px;
+height: 500px;
 }
+
+.image2{
+width: 750px;
+height: 500px;
+}
+
 
 a:link{
 background-color: transparent;
@@ -20,11 +26,14 @@ background-color: transparent;
 }
 
 
-body{
+
+
+body {
 font-family: monospace;
 color: blue;
 background-color: lightgrey;
 }
+
 
 h1,h2,h3,h4
 {
@@ -60,4 +69,8 @@ text-align: center;
 
 li {
 font-size: 20px;
+
 }
+
+
+
