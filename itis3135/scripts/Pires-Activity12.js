@@ -8,6 +8,8 @@ $(document).ready(function() {
 	randomStart: true,
 	captions: true,
 	pause: 3000,
-	pager: true
+	pager: true,
+	pagerType: 'short',
+	pagerSelector: '#id_pager',
     });
 });
