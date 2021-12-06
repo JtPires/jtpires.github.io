@@ -24,10 +24,52 @@
 </nav>
 
 <main>
+<form action ="#">
 <h2> Socials</h2>
 <p>Below is a form to fill out!</p>
 
+<label for="fullname">Full name:</label><br>
+<input type="text" id="fullname" name="fullname" size="25"><br>
+
+<label for="number">PhoneNumber:</label><br>
+<input type="number" id="number" name="number" required><br>
+<label for="email">Enter your email:</label><br>
+<input type="email" id="email" name="email" required placeholder="Enter a valid email address"><br>
+
+
+</form>
+
+<h3>How often will you watch the stream?</h3>
+<input type="radio" id="streaming" name="stream" value="1-2 times a week">
+<label for="streaming">1-2 times a week</label><br>
+<input type="radio" id="streaming" name="stream" value="3-4">
+<label for="streaming">3-4 times a week</label><br>
+<input type="radio" id="streaming" name="stream" value="5-6">
+<label for="streaming">5-6 times a week</label><br>
+
+<h3>How did you enjoy the artwork shown?</h3>
+<input type="checkbox" id="artwork" name="Great" value="Great">
+<label for="Great">Great</label><br>
+<input type="checkbox" id="artwork" name="Decent" value="Decent">
+<label for="Decent">Decent</label><br>
+<input type="checkbox" id="artwork" name="Bad" value="Bad">
+<label for="Bad">Bad</label><br><br>
+
+<input type="submit" value="Submit" onclick="submit()">
+<br><br>
+<P>Please select the date you viewed this webpage! <input type="text" id="datepicker"></p>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+
 </main>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+<script src ="scripts/contact.js"></script>
 
 <footer>
 <nav>
@@ -51,4 +93,5 @@
 </a>
 
 </footer>
+</body>
 </html>
